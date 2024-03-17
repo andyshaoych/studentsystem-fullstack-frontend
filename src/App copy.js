@@ -2,13 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import ButtonAppBar from './components/ButtonAppBar';
 import ResponsiveAppBar from './components/ResAppbar';
-import Student from './components/Student';
 
 function App() {
   return (
     <div className="App">
       <ButtonAppBar/>
-      <Student/>   
     
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
