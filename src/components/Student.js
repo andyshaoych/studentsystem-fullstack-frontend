@@ -39,7 +39,8 @@ export default function Student() {
       getStudents(result);
       }
     )
-    },[])
+    },[]
+  )
 
   return (
     <Container>
